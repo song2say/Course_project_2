@@ -12,8 +12,8 @@ def test_my_data():
     assert my_data([{'date': "2019-08-26T10:50:58.294041", 'state': "EXECUTED"}]) == [{'date': datetime.fromisoformat("2019-08-26T10:50:58.294041"), 'state': "EXECUTED"}]
 
 def test_last_5():
-    assert last_5([]) ==[]
-    assert last_5[
+    assert last_5([]) == []
+    assert last_5([
         {'date': 2},
         {'date': 3},
         {'date': -5},

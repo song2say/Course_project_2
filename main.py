@@ -9,5 +9,5 @@ def main():
         print(mask(i.get('from')), '->', mask(i['to']))
         print(i["operationAmount"]["amount"], i["operationAmount"]["currency"]["name"])
         print()
-if __name__ == '__main__':
-    main()
+
+main()

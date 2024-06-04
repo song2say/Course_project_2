@@ -24,6 +24,4 @@ def test_last_5():
 
 def test_mask():
     assert mask("Счет 64686473678894779589") == 'Счет **9589'
-
-
-
+    assert mask("Visa Classic 6831982476737658") == 'Visa Classic 6831 98** **** 7658'

@@ -23,7 +23,7 @@ def mask(one):
         return ''
     sup = one.split()
     if sup[0] == 'Счет':
-        return f'Cчет **{sup[-1][-4:]}'
+        return f'Счет **{sup[-1][-4:]}'
     else:
         my_list = sup[-1]
         my_list = my_list[:6] + ('*' * 6) + my_list[-4:]
